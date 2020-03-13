@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas: 'header header'
+                         'menu mainContent'
+                         'footer footer';
+}
+div.header {
+    background-color: rgb(7, 7, 7);
+    color: orange;
+    grid-area: header;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Helvetica';
+}
+div.menu {
+    background-color:black;
+    color: orange;
+    grid-area: menu;
+}
+div.footer {
+    background-color: orange;
+    color:black;
+    grid-area: footer;
+    text-align: center;
+    font-size: 30px;
+}
+div.mainContent {
+    background-color: snow;
+    color: black;
+    grid-area: mainContent;
+}
+button.fiksa {
+    margin-top: 10px;
+    box-shadow: white 2px 2px 2px;
+    clear: left;
+    width: 150px;
+    height: 50px;
+    float: left;
+    background: orange;
+    color: black;
+    font-weight: bolder;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px orange;
+    width: 950px;
+    height: auto;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 50px;
+    padding: 4px;
+    height: 18px;
+}
+.pause {
+    background-color: orange;
+    color: black;
+}
