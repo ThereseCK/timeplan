@@ -51,10 +51,10 @@ button.fiksa {
 table {
     border: 2px solid black;
     border-collapse: collapse;
-    margin-left: 10%;
-    margin-top: 20px;
+    
+    margin-top: 10px;
     box-shadow: 2px 2px 2px orange;
-    width: 950px;
+    width: auto;
     height: auto;
 }
 
