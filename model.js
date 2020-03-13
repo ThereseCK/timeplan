@@ -377,7 +377,7 @@ const model= {
             day: 4,
             timeSlot: 2
         },
-        module: 1,
+        module: 2,
         teachers: ['Eskil', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
