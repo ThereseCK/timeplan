@@ -1,5 +1,6 @@
 function show(){
 document.getElementById('mainContent').innerHTML = `
+<h1 style="text-align: center;"> Alle Moduler </h1>
 <table> 
     <tr>
         <th> </th>
@@ -37,9 +38,9 @@ function createHtmlForTimeSlot(timeSlot){
         <td>
             <ul>
                 ${eventsFromDayAndTime(dayNo, timeSlot).map( event => `
-                Modul ${event.module}
+                <strong>Modul ${event.module}</strong>
                 <li> 
-                    ${event.name} (${event.teachers.join(', ')})    
+                    ${event.name} <br>(${event.teachers.join(', ')})    
                 </li>
                 `).join('') }
             </ul>
