@@ -507,7 +507,7 @@ const model= {
         module: 3,
         teachers: ['Kvamme']
     },
-    // Modul 2- Torsdag
+    // Modul 3- Torsdag
     {
         name: 'Morramøte med teamet + Fokusert Jobbing alene eller i Team',
         nickName: 'MM + FJ',
@@ -545,7 +545,7 @@ const model= {
         module: 3,
         teachers: ['Kvamme']
     },
-    // Modul 2- Fredag 
+    // Modul 3- Fredag 
     {
         name: 'Morramøte med teamet + Fokusert Jobbing alene eller i Team',
         nickName: 'MM + FJ',
