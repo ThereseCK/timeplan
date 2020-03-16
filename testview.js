@@ -38,7 +38,7 @@ function show(){
             <td>
                 <ul>
                     ${eventsFromDayAndTime(dayNo, timeSlot).map( event => `
-                    <strong>Modul ${event.module}</strong>
+                    <strong> ${event.module}</strong>
                     <li> 
                         ${event.name} <br>(${event.teachers.join(', ')})    
                     </li>

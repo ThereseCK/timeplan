@@ -10,7 +10,7 @@ const model= {
             day: 0,
             timeSlot: 0
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Eskil', 'Geir']
     },
     {
@@ -20,7 +20,7 @@ const model= {
             day: 0,
             timeSlot: 1
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Terje']
     },
     {
@@ -30,7 +30,7 @@ const model= {
             day: 0,
             timeSlot: 2
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['']
     },
     {
@@ -40,7 +40,7 @@ const model= {
             day: 0,
             timeSlot: 3
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },
     //Modul1- Tirsdag
@@ -51,7 +51,7 @@ const model= {
             day: 1,
             timeSlot: 0
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn ', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -60,7 +60,7 @@ const model= {
             day: 1,
             timeSlot: 1
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },{
         name: 'Parprogrammering to og to med mulighet for hjelp',
@@ -69,7 +69,7 @@ const model= {
             day: 1,
             timeSlot: 2
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -78,7 +78,7 @@ const model= {
             day: 1,
             timeSlot: 3
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },
     //modul 1 - Onsdag
@@ -89,7 +89,7 @@ const model= {
             day: 2,
             timeSlot: 0
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn ', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -98,7 +98,7 @@ const model= {
             day: 2,
             timeSlot: 1
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },{
         name: 'Parprogrammering to og to med mulighet for hjelp',
@@ -107,7 +107,7 @@ const model= {
             day: 2,
             timeSlot: 2
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -116,7 +116,7 @@ const model= {
             day: 2,
             timeSlot: 3
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },
     // Modul 1- Torsdag
@@ -127,7 +127,7 @@ const model= {
             day: 3,
             timeSlot: 0
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn ', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -136,7 +136,7 @@ const model= {
             day: 3,
             timeSlot: 1
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },{
         name: 'Parprogrammering to og to med mulighet for hjelp',
@@ -145,7 +145,7 @@ const model= {
             day: 3,
             timeSlot: 2
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -154,7 +154,7 @@ const model= {
             day: 3,
             timeSlot: 3
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },
     // Modul 1- Fredag 
@@ -165,7 +165,7 @@ const model= {
             day: 4,
             timeSlot: 0
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn ', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -174,7 +174,7 @@ const model= {
             day: 4,
             timeSlot: 1
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['Linn']
     },{
         name: 'Parprogrammering to og to med mulighet for hjelp',
@@ -183,7 +183,7 @@ const model= {
             day: 4,
             timeSlot: 2
         },
-        module: 1,
+        module:  "Modul 1",
         teachers: ['']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -192,7 +192,7 @@ const model= {
             day: 4,
             timeSlot: 3
         },
-        module: 1,
+        module: "Modul 1",
         teachers: ['Linn']
     },
 
@@ -204,7 +204,7 @@ const model= {
             day: 0,
             timeSlot: 0
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Terje']
     },
     {
@@ -214,7 +214,7 @@ const model= {
             day: 0,
             timeSlot: 1
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Linn']
     },
     {
@@ -224,7 +224,7 @@ const model= {
             day: 0,
             timeSlot: 2
         },
-        module: 2,
+        module: "Modul 2",
         teachers: [null]
     },
     {
@@ -234,7 +234,7 @@ const model= {
             day: 0,
             timeSlot: 3
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },
     //Modul2- Tirsdag
@@ -245,7 +245,7 @@ const model= {
             day: 1,
             timeSlot: 0
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['GET']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -254,7 +254,7 @@ const model= {
             day: 1,
             timeSlot: 1
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -263,7 +263,7 @@ const model= {
             day: 1,
             timeSlot: 2
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -272,7 +272,7 @@ const model= {
             day: 1,
             timeSlot: 3
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['ABY']
     },
     //modul 2 - Onsdag
@@ -283,7 +283,7 @@ const model= {
             day: 2,
             timeSlot: 0
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['ABY']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -292,7 +292,7 @@ const model= {
             day: 2,
             timeSlot: 1
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -301,7 +301,7 @@ const model= {
             day: 2,
             timeSlot: 2
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -310,7 +310,7 @@ const model= {
             day: 2,
             timeSlot: 3
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },
     // Modul 2- Torsdag
@@ -321,7 +321,7 @@ const model= {
             day: 3,
             timeSlot: 0
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Terje']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -330,7 +330,7 @@ const model= {
             day: 3,
             timeSlot: 1
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -339,7 +339,7 @@ const model= {
             day: 3,
             timeSlot: 2
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['']
     },{
         name: 'Prosjektjobbing i team og med fordelte oppgaver alene med muligheter for hjelp',
@@ -348,7 +348,7 @@ const model= {
             day: 3,
             timeSlot: 3
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['ABY']
     },
     // Modul 2- Fredag 
@@ -359,7 +359,7 @@ const model= {
             day: 4,
             timeSlot: 0
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['ABY']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -368,7 +368,7 @@ const model= {
             day: 4,
             timeSlot: 1
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },{
         name: 'Oppsummering av Uka i Team for hverandre',
@@ -377,7 +377,7 @@ const model= {
             day: 4,
             timeSlot: 2
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Eskil', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -386,7 +386,7 @@ const model= {
             day: 4,
             timeSlot: 3
         },
-        module: 2,
+        module: "Modul 2",
         teachers: ['Kvamme']
     },
 
@@ -398,7 +398,7 @@ const model= {
             day: 0,
             timeSlot: 0
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['ABY']
     },
     {
@@ -408,7 +408,7 @@ const model= {
             day: 0,
             timeSlot: 1
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Eskil', 'Geir']
     },
     {
@@ -418,7 +418,7 @@ const model= {
             day: 0,
             timeSlot: 2
         },
-        module: 3,
+        module: "Modul 3",
         teachers: [null]
     },
     {
@@ -428,7 +428,7 @@ const model= {
             day: 0,
             timeSlot: 3
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },
     //Modul3- Tirsdag
@@ -439,7 +439,7 @@ const model= {
             day: 1,
             timeSlot: 0
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['GET']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -448,7 +448,7 @@ const model= {
             day: 1,
             timeSlot: 1
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },{
         name: 'Parprogrammering to og to med muligheter for hjelp',
@@ -457,7 +457,7 @@ const model= {
             day: 1,
             timeSlot: 2
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['']
     },{
         name: 'Kodetime fellesøkt med Terje',
@@ -466,7 +466,7 @@ const model= {
             day: 1,
             timeSlot: 3
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Terje']
     },
     //modul 3 - Onsdag
@@ -477,7 +477,7 @@ const model= {
             day: 2,
             timeSlot: 0
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['ABY']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -486,7 +486,7 @@ const model= {
             day: 2,
             timeSlot: 1
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },{
         name: 'Parprogrammering to og to med muligheter for hjelp',
@@ -495,7 +495,7 @@ const model= {
             day: 2,
             timeSlot: 2
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -504,7 +504,7 @@ const model= {
             day: 2,
             timeSlot: 3
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },
     // Modul 3- Torsdag
@@ -515,7 +515,7 @@ const model= {
             day: 3,
             timeSlot: 0
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Terje']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -524,7 +524,7 @@ const model= {
             day: 3,
             timeSlot: 1
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },{
         name: 'Parprogrammering to og to med muligheter for hjelp',
@@ -533,7 +533,7 @@ const model= {
             day: 3,
             timeSlot: 2
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['']
     },{
         name: 'Kodetime fellesøkt med Terje',
@@ -542,7 +542,7 @@ const model= {
             day: 3,
             timeSlot: 3
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },
     // Modul 3- Fredag 
@@ -553,7 +553,7 @@ const model= {
             day: 4,
             timeSlot: 0
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['ABY']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -562,7 +562,7 @@ const model= {
             day: 4,
             timeSlot: 1
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },{
         name: 'Oppsummering av Uka i Team for hverandre',
@@ -571,7 +571,7 @@ const model= {
             day: 4,
             timeSlot: 2
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Eskil', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
@@ -580,7 +580,7 @@ const model= {
             day: 4,
             timeSlot: 3
         },
-        module: 3,
+        module: "Modul 3",
         teachers: ['Kvamme']
     },
  // Onsdag GET IT

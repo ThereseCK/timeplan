@@ -45,8 +45,14 @@ const model1= {
     },
     //Modul1- Tirsdag
     {
-        name: 'Morramøte med teamet + Fokusert Jobbing alene eller i Team', nickName: 'MM + FJ', time: { day: 1, timeSlot: 0 },
-        module: 1, teachers: ['Linn ', 'Kvamme']
+        name: 'Morramøte med teamet + Fokusert Jobbing alene eller i Team',
+        nickName: 'MM + FJ',
+        time: {
+            day: 1,
+            timeSlot: 0
+        },
+        module: 1,
+        teachers: ['Linn ', 'Kvamme']
     },{
         name: 'Fokusert Jobbing alene eller i Team',
         nickName: 'FJ',
