@@ -69,3 +69,35 @@ tr, td, th {
     background-color: orange;
     color: black;
 }
+div.PJ {
+    color: red;
+    font-weight: bold;
+}
+div.PP {
+    color: blue;
+    font-weight: bold;
+}
+div.FJ {
+    color: purple;
+    font-weight: bold;
+}
+div.NK {
+    color: darkgreen;
+    font-weight: bold;
+}
+div.MMFJ {
+    color: orange;
+    font-weight: bold;
+}
+div.KT {
+    color: slateblue;
+    font-weight: bold;
+}
+div.NKKT {
+    color: tomato;
+    font-weight: bold;
+}
+div.OUT {
+    color: darkblue;
+    font-weight: bold;
+}

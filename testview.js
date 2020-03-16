@@ -40,8 +40,8 @@ function show(){
                     ${eventsFromDayAndTime(dayNo, timeSlot).map( event => `
                     <strong> ${event.module}</strong>
                     <li> 
-                        ${event.name} <br>(${event.teachers.join(', ')})    
-                    </li>
+                        ${event.name} <strong style="color:grey;"><br>(${event.teachers.join(', ')}</strong>)    
+                    </li><br>
                     `).join('') }
                 </ul>
             </td>`).join('')}
@@ -54,7 +54,7 @@ function show(){
     }
 function Modul1(){
     document.getElementById('mainContent').innerHTML = `
-    <h1 style="text-align: center;"> Modul1 </h1>
+    <h1 style="text-align: center;"> Modul 1 </h1>
     <table> 
         <tr>
             <th> </th>
@@ -94,8 +94,8 @@ function Modul1(){
                     ${eventsFromDayAndTime1(dayNo, timeSlot).map( event => `
                    
                     <li> 
-                        ${event.name} <br>(${event.teachers.join(', ')})    
-                    </li>
+                        ${event.name} <strong style="color:grey;"><br>(${event.teachers.join(', ')}</strong>)    
+                    </li><br>
                     `).join('') }
                 </ul>
             </td>`).join('')}
@@ -148,8 +148,8 @@ function Modul1(){
                         ${eventsFromDayAndTime2(dayNo, timeSlot).map( event => `
                        
                         <li> 
-                            ${event.name} <br>(${event.teachers.join(', ')})    
-                        </li>
+                            ${event.name} <strong style="color:grey;"><br>(${event.teachers.join(', ')}</strong>)    
+                        </li><br>
                         `).join('') }
                     </ul>
                 </td>`).join('')}
@@ -203,8 +203,8 @@ function Modul1(){
                             ${eventsFromDayAndTime3(dayNo, timeSlot).map( event => `
                           
                             <li> 
-                                ${event.name} <br>(${event.teachers.join(', ')})    
-                            </li>
+                                ${event.name} <strong style="color:grey;"><br>(${event.teachers.join(', ')}</strong>)    
+                            </li><br>
                             `).join('') }
                         </ul>
                     </td>`).join('')}
