@@ -12,11 +12,12 @@ function show() {
     let selectedEvents = model.events.filter(includeEvent);
 
     document.getElementById('mainContent').innerHTML = `
-    <h1 style="text-align: center;"> Modul 1 </h1>
+    
     <table> 
         <tr>
             <th> </th>
             ${model.days.map(d => `
+            
             <th>${d}</th>`).join('')}
         </tr>
         ${createHtmlForTimeSlot(0, selectedEvents)}
@@ -51,6 +52,7 @@ function createHtmlForTimeSlot(timeSlot, events) {
             <td>
                 <ul>
                     ${eventsFromDayAndTime(dayNo, timeSlot, events).map(event => `
+                    <strong>${event.module}</strong>
                    
                     <li> 
                         ${event.name} <strong style="color:grey;"><br>(${event.teachers.join(', ')}</strong>)    
