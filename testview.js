@@ -16,28 +16,32 @@ function show() {
     <table> 
         <tr>
             <th> </th>
+           
             ${model.days.map(d => `
             
-            <th>${d}</th>`).join('')}
+            <th>${d}    <div> FCcM: <br> GOOGLE</div></th>`).join('') }
+           
         </tr>
+      
         ${createHtmlForTimeSlot(0, selectedEvents)}
+     
         <tr class="pause"> 
             <th> 10.00 - 10.20 </th>
             <th colspan="5"> FELLES PAUSE </th>
         </tr>
         ${createHtmlForTimeSlot(1, selectedEvents)}
         <tr class="pause"> 
-            <th> 11.20 - 12.00 </th>
+            <th> 11.20 - 12.20 </th>
             <th colspan="5"> Lunsj </th>
         </tr>
         ${createHtmlForTimeSlot(2, selectedEvents)}
         <tr class="pause"> 
-            <th> 13.00 - 13.20 </th>
+            <th> 13.20 - 13.40 </th>
             <th colspan="5"> FELLES PAUSE </th>
         </tr>
         ${createHtmlForTimeSlot(3, selectedEvents)}
         <tr class="pause"> 
-            <th> 14.30 - 15.00 </th>
+            <th> 14.40 - 15.00 </th>
             <th colspan="5"> Oppsummering og avslutning i team der alle deler det viktigste de har lært. Individuell oppsummering med egen logg til slutt</th>
         </tr>
     </table>
