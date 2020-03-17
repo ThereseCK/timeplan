@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timeplan</title>
-    <script src="model.js"></script>
-    <script src="testmodel.js"></script>
+    <script src="model.js"></script> 
     <link rel="stylesheet" href="style.css">
     <script src="testview.js"></script>
 </head>
+
 <body>
     <div class="page" id="page">
-        <div class="header" id="header">  UkePlan For GetAcademy 2020 </div>
+        <div class="header" id="header"> UkePlan For GetAcademy 2020 </div>
         <div class="menu" id="menu">
-            <button class="fiksa" onclick="show()"> Alle Modulene </button>
-            <button class="fiksa" onclick="Modul1()"> Modul 1 </button> 
-            <button class="fiksa" onclick="Modul2()"> Modul 2 </button>
-            <button class="fiksa" onclick="Modul3()"> Modul 3 </button>
-           
         </div>
-        <div class="footer" id="footer">  
+        <div class="footer" id="footer">
         </div>
         <div class="mainContent" id="mainContent">
-           </div>
         </div>
+    </div>
     <script>
+        initMenu();
         show();
+
+        function selectModuleAndShow(selection) {
+            model.selectedModule = selection;
+            show();
+        }
+
+        function initMenu() {
+            document.getElementById('menu').innerHTML =
+                model.menuOptions.map(option => `
+                    <button class="fiksa" 
+                            onclick="selectModuleAndShow(${option.value === null ? null : `'${option.value}'`})"
+                            > 
+                            ${option.txt} 
+                    </button>
+                `).join('');
+        }
     </script>
 </body>
+
 </html>

@@ -1,6 +1,14 @@
 const model= {
+    selectedModule: 'Modul 1',
     days: ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag'],
     timeSlots: ['09.00 - 10.00 ','10.20 - 11.20','12.00 - 13.00 ','13.20 - 14.30', ],
+    menuOptions: [
+        {value: null, txt: 'Alle Modulene'},
+        {value: 'Modul 1', txt: 'Modul 1'},
+        {value: 'Modul 2', txt: 'Modul 2'},
+        {value: 'Modul 3', txt: 'Modul 3'},
+        {value: 'GET IT', txt: 'GET IT'},
+    ],
 
     events: [
         //Modul 1- Mandag 
